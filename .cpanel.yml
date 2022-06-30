@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/quickbra/public_html/suspence/
+    - /bin/cp -R * $DEPLOYPATH
